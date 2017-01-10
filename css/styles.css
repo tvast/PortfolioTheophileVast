@@ -152,3 +152,10 @@
 		.demo-card-wide > .mdl-card__menu {
 			color: #fff;
 		}
+
+		.grid-item { width: 200px; }
+		.grid-item--width2 { 
+			width: 150px;
+			position: absolute; 
+			left: 200px; 
+			top: 0px; }

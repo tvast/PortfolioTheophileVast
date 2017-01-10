@@ -6,7 +6,7 @@
 		for( var i=0; i < 20; i++ )
 			text += possible.charAt(Math.floor(Math.random() * possible.length));
 
-		console.log(text) ;
+		/*console.log(text) ;*/
 		document.getElementById("foo").innerHTML= text
 
 	}, 200);
