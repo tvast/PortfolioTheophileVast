@@ -10,6 +10,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/styles.Css" rel="stylesheet">
+   <link href="css/animate.Css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 </head>
 <body>
@@ -44,9 +45,9 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Portfolio</h1>
+      <h1 class="tlt header center orange-text">Portfolio</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Fullstack javascript developer</h5>
+        <h5 class="tlt header col s12 light">Fullstack javascript developer</h5>
       </div>
       <div class="row center">
         <a style=" z-index: -1;" href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
@@ -136,10 +137,16 @@
 
 
   <!--  Scripts-->
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script> 
+  <script type="text/javascript" src="js/texilate.js"></script> 
+  <script type="text/javascript" src="js/lettering.js"></script> 
+  <script type="text/javascript">
+    $('.tlt').textillate({ in: { effect: 'rollIn' } });
+  </script>
 
   </body>
 </html>
