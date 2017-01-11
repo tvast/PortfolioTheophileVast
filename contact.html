@@ -10,14 +10,14 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/styles.css" rel="stylesheet">
-<!--   <link href="css/youtube.css" rel="stylesheet"> -->
+  <!--   <link href="css/youtube.css" rel="stylesheet"> -->
   <link href="css/animate.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   
 </head>
 <body>
-  <nav class=" accent-4 lighten-1 lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a  id="foo" onmouseleave="myStopFunction()"  href="#" class="logo brand-logo">Navbar</a>
+  <nav class="purple accent-4 lighten-1 lighten-1" role="navigation">
+    <div class="nav-wrapper container logo"><a  onmouseover=""   href="#" class="brand-logo">Navbar</a>
      <!--  <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
       </ul>
@@ -34,7 +34,7 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
       <!-- Overlay content -->
-      <div class="overlay-content">
+       <div class="overlay-content">
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="^project.html">roject</a>
@@ -47,7 +47,7 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1  class="tlt header center logo">Portfolio</h1>
+      <h1 id="foo" onmouseleave="myStopFunction()" class="tlt header center yellow-text logo">Portfolio</h1>
       <div class="row center">
         <h5 class="tlt header col s12 light">Fullstack javascript developer</h5>
       </div>
@@ -59,75 +59,21 @@
     </div>
   </div>
 
-
   <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row logo">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center purple-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center purple-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center purple-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid">
-        <div class="grid-item grid-item--width2">hello</div>
-        <div class="grid-item grid-item--width2">hello</div>
-        <div class="grid-item grid-item--width2">...</div>
-        ...
-      </div>
-
-    </div>
-    <br><br>
-<!-- 
-    <div class="section">
-
-    <h1>Site en ligne</h1>
-
-    <iframe src="http://theophilevast.fr" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-    <iframe src="http://midipile.net" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-
-    <iframe src="http://theophilevast.fr/edouard" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-
-    <br>
-
-    <h1>projets participé</h1>
-    <h2>Cerebro alerting open source by VSCT</h2>
-    <h2>Hackathon NAO Aldebaran</h2>
-
-    </div> -->
+      <form action="mailto:theophile.vast@gmail.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Comment:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <a type="submit" value="Send" class="purple waves-effect waves-light btn">send</a
+  </form>
   </div>
 
-  <footer class="page-footer">
+
+
+  <footer class="page-footer purple logo">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -184,28 +130,7 @@
   itemSelector: '.grid-item',
   columnWidth: 200
 });
-  </script>
-<!--       <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-38810586-1', 'auto');
-
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-
-      ga('send', 'pageview');
-    </script> 
-    <script async="" src="./js/analytics.js.téléchargement">
-    </script> 
-    <script async="" src="./js/autotrack.js.téléchargement">
-    </script> 
-    <script src="./js/waypoints.min.js.téléchargement">
-    </script> 
-    <script src="./js/TweenMax.min.js.téléchargement">
-    </script> 
-    <script src="./js/Draggable.min.js.téléchargement">
-    </script> 
-    <script src="./js/site.min.js.téléchargement">
-    </script> -->
+</script>
 
 </body>
 </html>
