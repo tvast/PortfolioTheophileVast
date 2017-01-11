@@ -144,6 +144,13 @@
 			
 		}
 
+		.gradient {
+        font-size: 72px;
+ background: -webkit-linear-gradient(#ebf442, #9842f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      }
+
 		.demo-card-wide.mdl-card {
 			width: 512px;
 		}
