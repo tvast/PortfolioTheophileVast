@@ -13,6 +13,9 @@
 <!--   <link href="css/youtube.css" rel="stylesheet"> -->
   <link href="css/animate.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
   
 </head>
 <body>
@@ -86,7 +89,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center purple-text"><i class="material-icons">trending_up</i></h2>
-            <h4 class="center">Agile <br> knowledge</h4>
+            <h4 class="center">Agile knowledge</h4>
 
             <p class="light size">I'm trained with agile and I love daily scrum meeting, retrospectives and all scrum rituals </p>
           </div>
@@ -127,57 +130,219 @@
   </div>
 </div>
 
-<div class="logo" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Cerebro @Supervision VSCT</h3>
-  <p>Pour expliquer le contexte le projet est réalisé en deux couche. Une partie service en java springboot et une partie dashboard en angular 2. La partie service traite les informations envoyé via l’API de seyren et la partie dashboard les affiches. Le cahier des charges était de proposer une alternative aux composants de bootstrap et d’améliorer le layout de certaines partie du site. Voici quelques captures d’écran de la version originale :</p>
-  <!-- <iframe src="http://theophilevast.fr" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe> -->
- 
-
-        <div class="row">
-      <div class="col s4"> <img class="materialboxed center" width="300" src="content/cerebropic/alarmae_etape1_material_slider.png"></div>
-      <div class="col s4"> <img class="materialboxed center" width="300" src="content/cerebropic/alarmae_etape1_material_valide.png"></div>
-      <div class="col s4"> <img class="materialboxed center" width="300" src="content/cerebropic/home_material.png"></div>
+<div class="container"> 
      
-    </div>
-</div>
-
-<div class="bgimg-2">
-  <div class="caption">
-    <span class="border logo" >LESS HEIGHT</span>
-  </div>
-</div>
-
-<div style="position:relative;">
-  <div class="logo" style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-    <iframe src="http://midipile.net" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-  </div>
-</div>
-
-<div class="bgimg-3">
-  <div class="caption">
-    <span class="border logo">SCROLL UP</span>
-  </div>
-</div>
-
-<div class="logo" style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-    <iframe src="http://theophilevast.fr/edouard" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-  </div>
-</div>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">COOL!</span>
-  </div>
-</div>
+      <header class="clearfix">
+        <h1>Thumbnail Grid <span>with Expanding Preview</span></h1> 
+      </header>
+      <div class="main">
+        <ul id="og-grid" class="og-grid">
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+        </ul>
+        <p>Filler text by <a href="http://veggieipsum.com/">Veggie Ipsum</a></p>
+        <a id="og-additems" href="#">add more</a>
+      </div>
+    </div><!-- /container -->
+   
 
   <footer class="page-footer purple">
     <div class="container">
@@ -244,6 +409,12 @@
   <script type="text/javascript">
     $('.tlt').textillate({ in: { effect: 'rollIn' } });
   </script>
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/grid.js"></script>
+    <script>
+      $(function() {
+        Grid.init();
+      });
+    </script>
 </body>
 </html>
