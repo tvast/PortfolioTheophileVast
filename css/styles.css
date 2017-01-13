@@ -7,8 +7,8 @@
 		z-index: 1; /* Sit on top */
 		left: 0;
 		top: 0;
-		background-color: #aa00ff; /* Black fallback color */
-		background-color: #aa00ff; /* Black w/opacity */
+		background-color: #ff324a; /* Black fallback color */
+		background-color: #ff324a; /* Black w/opacity */
 		overflow-x: hidden; /* Disable horizontal scroll */
 		transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 	}
@@ -140,40 +140,24 @@
 			font-family: 'Poiret One', cursive;
 			/*background: -webkit-linear-gradient(#ebf442, #9842f4);*/
 /*  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
-			
-		}
+-webkit-text-fill-color: transparent;*/
 
-		.gradient {
-        font-size: 72px;
- background: -webkit-linear-gradient(#ebf442, #9842f4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-      }
+}
 
-		.demo-card-wide.mdl-card {
-			width: 512px;
-		}
-		.demo-card-wide > .mdl-card__title {
-			color: #fff;
-			height: 176px;
-			background: url('../assets/demos/welcome_card.jpg') center / cover;
-		}
-		.demo-card-wide > .mdl-card__menu {
-			color: #fff;
-		}
+.gradient {
+	font-size: 72px;
+	background: -webkit-linear-gradient(#329fff, #ff324a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
-		.grid-item { width: 200px; }
-		.grid-item--width2 { 
-			width: 150px;
-			position: absolute; 
-			left: 200px; 
-			top: 0px; }
+.colorTOMATE {
+	color: tomato;
+}
 
-			.size {
-				font-size: 1.5em;
-			}
+.bakcgroundBlue {
+	background-color: #ff324a;
+}
 
-			sizeImage {
-				width :30%;
-			}
+	/*code for social network*/
+
