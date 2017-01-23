@@ -3,21 +3,24 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <title>Théophile Vast | Portfolio</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/styles.css" rel="stylesheet">
-<!--   <link href="css/youtube.css" rel="stylesheet"> -->
+  <!--   <link href="css/youtube.css" rel="stylesheet"> -->
   <link href="css/animate.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
   
 </head>
 <body>
-  <nav class="purple accent-4 lighten-1 lighten-1" role="navigation">
-    <div class="nav-wrapper container logo"><a  onmouseover=""   href="#" class="brand-logo">Navbar</a>
+  <nav class="white logo accent-4 lighten-1 lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a  id="foo" onmouseleave="myStopFunction()"  href="#" class="gradient logo brand-logo">Navbar</a>
      <!--  <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
       </ul>
@@ -27,16 +30,16 @@
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div> -->
-    <span class="menu" onclick="openNav()">☰</span>
+    <span class="menu gradient " onclick="openNav()">☰</span>
     <div id="myNav" class="overlay">
 
       <!-- Button to close the overlay navigation -->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
       <!-- Overlay content -->
-     <div class="overlay-content">
+      <div class="overlay-content">
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+        <a href="service.html">Services</a>
         <a href="^project.html">roject</a>
         <a href="contact.html">Contact</a>
       </div>
@@ -47,12 +50,12 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 id="foo" onmouseleave="myStopFunction()" class="tlt header center yellow-text logo">Portfolio</h1>
+      <h1  class="tlt header center logo">Service</h1>
       <div class="row center">
         <h5 class="tlt header col s12 light">Fullstack javascript developer</h5>
       </div>
       <div class="row center">
-        <a style=" z-index: -1;" href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light yellow accent-3">Get Started</a>
+        <a style=" z-index: -1;" href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light #ff5252 red accent-2 accent-3">Get Started</a>
       </div>
       <br><br>
 
@@ -60,132 +63,58 @@
   </div>
 
 
+  
+
+
+
+<footer class="page-footer red accent-2 accent-3">
   <div class="container">
-    <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row logo">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center purple-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center purple-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center purple-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid">
-        <div class="grid-item grid-item--width2">hello</div>
-        <div class="grid-item grid-item--width2">hello</div>
-        <div class="grid-item grid-item--width2">...</div>
-        ...
-      </div>
-
-    </div>
-    <br><br>
-
-    <div class="section">
-
-    <h1>Site en ligne</h1>
-
-    <iframe src="http://theophilevast.fr" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-    <iframe src="http://midipile.net" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-
-    <iframe src="http://theophilevast.fr/edouard" width="100%" height="700px">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-
-    <br>
-
-    <h1>projets participé</h1>
-    <h2>Cerebro alerting open source by VSCT</h2>
-    <h2>Hackathon NAO Aldebaran</h2>
-
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Théophile Vast</a>
     </div>
   </div>
-
-  <footer class="page-footer purple logo">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+</footer>
 
 
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
+<!--  Scripts-->
 
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
 
-  <!--  Scripts-->
+<!-- gallerie -->
 
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script type="text/javascript" src="js/scripts.js"></script> 
-  <script type="text/javascript" src="js/texilate.js"></script> 
-  <script type="text/javascript" src="js/lettering.js"></script>
-  <script src="http://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
-  <script type="text/javascript" src="js/animation.js"></script> 
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-  <script type="text/javascript">
-    $('.tlt').textillate({ in: { effect: 'rollIn' } });
-  </script>
-  <script type="text/javascript">
-    $('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 200
-});
-  </script>
+<script type="text/javascript">
 
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
 
+  $(document).ready(function(){
+    $('.slider').slider({full_width: true});
+  });
+
+</script>
+<script src="js/init.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script> 
+<script type="text/javascript" src="js/texilate.js"></script> 
+<script type="text/javascript" src="js/lettering.js"></script>
+<script src="http://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
+<script type="text/javascript" src="js/animation.js"></script> 
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script type="text/javascript">
+  $('.tlt').textillate({ in: { effect: 'rollIn' } });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="js/grid.js"></script>
+<script>
+  $(function() {
+    Grid.init();
+  });
+</script>
 </body>
 </html>
