@@ -16,7 +16,7 @@
 
 
 		clearInterval(myVar);
-		document.getElementById("foo").innerHTML= "Theophile Vast	"
+		document.getElementById("foo").innerHTML= "Quadrivium"
 	}
 
 	function reload()
