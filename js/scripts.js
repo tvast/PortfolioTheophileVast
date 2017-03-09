@@ -11,6 +11,17 @@
 		/*console.log(text) ;*/
 		document.getElementById("foo").innerHTML= text
 	}
+	function generateString2() {
+		var text = "";
+		var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+		for( var i=0; i < 600; i++ ) {
+			text += possible.charAt(Math.floor(Math.random() * possible.length));
+		}
+
+		/*console.log(text) ;*/
+		document.getElementById("foo").innerHTML= text
+	}
 
 	var myVar = setInterval( generateString, 100);
 

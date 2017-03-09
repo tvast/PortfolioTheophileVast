@@ -136,17 +136,21 @@
 			position: fixed;
 			/*width: 100%;	
 			text-align: center*/
-
-			font-family: 'Poiret One', cursive;
+			font-family: "Merriweather",
+			/*font-family: 'Poiret One', cursive;*/
 			/*background: -webkit-linear-gradient(#ebf442, #9842f4);*/
 /*  -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;*/
 
 }
 
+.tlt {
+	color: white;
+}
+
 .gradient {
 	font-size: 72px;
-	background: -webkit-linear-gradient(#329fff, #ff324a);
+	background: -webkit-linear-gradient(#c6ff00, #1b76a3);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
