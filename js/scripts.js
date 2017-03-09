@@ -1,15 +1,18 @@
-	var myVar = setInterval(function(){ 
+	
 
+	function generateString() {
 		var text = "";
 		var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-		for( var i=0; i < 20; i++ )
+		for( var i=0; i < 20; i++ ) {
 			text += possible.charAt(Math.floor(Math.random() * possible.length));
+		}
 
 		/*console.log(text) ;*/
 		document.getElementById("foo").innerHTML= text
+	}
 
-	}, 200);
+	var myVar = setInterval( generateString, 100);
 
 
 	function myStopFunction() {
@@ -19,13 +22,6 @@
 		document.getElementById("foo").innerHTML= "Quadrivium"
 	}
 
-	function reload()
-	{	
-
-		location.reload();
-
-
-	}
 
 	/* Open when someone clicks on the span element */
 	function openNav() {
