@@ -86,12 +86,7 @@ h3 {
 .element2{
   color: lime; 
   font-family: "Courier";
-  font-size: 12px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(60, end); 
+  font-size: 2em;
 }
 
 .typed-cursor{
@@ -192,6 +187,13 @@ h3 {
     height: 100%;
   }
 
+  .vuu {
+    position: absolute;
+    right: 0%;
+    position: static;
+    float: right;
+  }
+
   .parallax { 
     /* The image used */
     background-image: url("http://www.luminousorb.com/wp-content/uploads/2015/04/Star-forming_region_S106_captured_by_the_Hubble_Space_Telescope.jpg");
@@ -206,32 +208,7 @@ h3 {
     background-size: cover;
   }
 
-  .parallax1 { 
-    /* The image used */
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/The_star_formation_region_NGC_3324.jpg");
 
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .parallax2 { 
-    /* The image used */
-    background-image: url("http://photojournal.jpl.nasa.gov/jpeg/PIA08097.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
   .caption span.border {
     background-color: #111;
@@ -247,19 +224,12 @@ h3 {
   }
 
   .logo {
-      /*background-color:white; 
-      color : black; 
-      font-family: 'Poiret One', cursive;
-      /*font-size:2em;
-      position: fixed;
-      /*width: 100%;  
-      text-align: center*/
       font-family: "Merriweather",
-      /*font-family: 'Poiret One', cursive;*/
-      /*background: -webkit-linear-gradient(#ebf442, #9842f4);*/
-/*  -webkit-background-clip: text;
--webkit-text-fill-color: transparent;*/
+}
 
+nav {
+  position: fixed;
+  z-index: 30;
 }
 
 .tlt {
@@ -311,4 +281,94 @@ h3 {
   font-family: 'Permanent Marker', cursive;
 }
 
+/*FAB*/
+
+.container {
+  .fab {
+    z-index: 6;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    position: fixed;
+    &:focus {
+      outline: none;
+    }
+    p {
+      margin: 0;
+      position: relative;
+      bottom: 2px;
+    }
+  }
+  .main-fab {
+    height: 50px;
+    width: 50px;
+    background-color: #1b76a3 ;
+    font-size: 24px;
+    bottom: 20px;
+    right: 20px;
+  }
+  .secondary-fab {
+    z-index: 5;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: pink;
+    visibility: hidden;
+    transition: all .2s;
+    p {
+      margin: 0;
+      position: relative;
+      bottom: 2px;
+      span {
+        position: absolute;
+        top: 37px;
+        right: 2px;
+        font-size: 9px;
+        color: #999;
+        opacity: 0;
+      }
+    }
+    &.one {
+      bottom: 25px;
+      right: 25px;
+    }
+    &.two {
+      bottom: 25px;
+      right: 25px;
+      p {
+        bottom: 0;
+      }
+    }
+    &.three {
+      bottom: 25px;
+      right: 25px;
+      p {
+        bottom: 0;
+      }
+    }
+  }
+  .secondary-fab {
+    &.active {
+      visibility: visible;
+      &.one {
+        bottom: 25px;
+        right: 120px;
+      }
+      &.two {
+        bottom: 120px;
+        right: 25px;
+      }
+      &.three {
+        right: 90px;
+        bottom: 90px;
+      }
+      span {
+        opacity: 1;
+        transition: opacity .4s;
+      }
+    }
+  }
+}
 
