@@ -50,6 +50,7 @@
   width: 100%;
   vertical-align: center
   color: black;
+  z-index: 100
 }
 
 .caption span.border {
@@ -270,6 +271,7 @@ h3 {
   background: -webkit-linear-gradient(#c6ff00, #1b76a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /*z-index: 100;*/
 }
 
 .colorTOMATE {
@@ -308,3 +310,5 @@ h3 {
 .foo {
   font-family: 'Permanent Marker', cursive;
 }
+
+
