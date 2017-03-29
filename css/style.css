@@ -298,7 +298,7 @@ h3 {
     #a044ff, #e73827);
   background-repeat: no-repeat;
   background-size: 1000% 1000%;
-  animation: gradient 100s ease infinite;
+  animation: gradient 50s ease infinite;
 }
 
 @keyframes gradient { 
