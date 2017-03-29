@@ -124,8 +124,8 @@ h3 {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: #ff324a; /* Black fallback color */
-    background-color: #ff324a; /* Black w/opacity */
+    background-color: #1b76a3; /* Black fallback color */
+    background-color: #1b76a3; /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
   }
@@ -151,7 +151,7 @@ h3 {
 
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: yellow;
+    color: #c6ff00;
   }
 
   /* Position the close button (top right corner) */
@@ -282,3 +282,6 @@ h3 {
 
   /*code for social network*/
 
+.foo {
+  font-family: 'Permanent Marker', cursive;
+}
