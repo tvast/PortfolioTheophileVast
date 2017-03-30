@@ -9,19 +9,23 @@
 		}
 
 		/*console.log(text) ;*/
-		document.getElementById("foo").innerHTML= text
-	}
-	function generateString2() {
-		var text = "";
-		var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+		/*document.getElementById("foo").innerHTML= text;*/
+		parent.location.hash = text;
 
-		for( var i=0; i < 600; i++ ) {
-			text += possible.charAt(Math.floor(Math.random() * possible.length));
-		}
-
-		/*console.log(text) ;*/
-		document.getElementById("foo").innerHTML= text
+/*		if (window.history.state) {
+		   /*window.history.pushState(state, title, href);
+		   var stateObj = { foo: "bar" };
+		   window.history.pushState(stateObj, "hello", text);
+}*/
+		
+		
 	}
+
+  function urlRandom() {
+    
+  }
+
+
 
 	var myVar = setInterval( generateString, 100);
 
