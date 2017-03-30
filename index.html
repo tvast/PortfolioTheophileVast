@@ -343,13 +343,15 @@
   function openTerminal() {
     window.open("terminal.html", "name=_blank","width=600,height=100");
   }
-
- 
-
-  
-
-
-
+</script>
+<script type="text/javascript" src="js/dom-animator.js"></script>
+<script>
+  var domAnimator = new DomAnimator();
+  domAnimator.addFrame('Hacking');
+  domAnimator.addFrame('Making');
+  domAnimator.addFrame('Doing');
+  domAnimator.addFrame('Thanks for your visit');
+  domAnimator.animate(1000); //ms
 </script>
 </body>
 </html>
