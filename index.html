@@ -13,14 +13,43 @@
   <link rel="stylesheet" type="text/css" href="css/default.css" />
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <script src="js/modernizr.custom.js"></script>
+    <style type="text/css">
+    .bloc-logo {
+      position: relative;
+      width: 150px;
+      height: 60px;
+      float: left;
+    }
+
+    .bloc-logo canvas,
+    .bloc-logo .logo-mask {
+      display: block;
+      width: 150px;
+      height: 60px;
+    }
+
+    .bloc-logo .logo-mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: 150px;
+      background-image: url("Quadrivium.png");
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+    }
+  </style>
   
 </head>
 <body onload="generateString()">
   <nav class="white logo accent-4 lighten-1 lighten-1"  role="navigation">
     <div class="nav-wrapper container">
 
-      <a  id="foo"  
-      href="#" class="foo gradient logo brand-logo">Quadrivium</a>
+     <!--  <a  id="foo"  
+      href="#" class="foo gradient logo brand-logo">Quadrivium</a> -->
+      <div class="bloc-logo">
+          <canvas id="logo-canvas"></canvas>
+          <a href="index.html" class="logo-mask">Granim.js</a>
+      </div>
 
       <span class="menu gradient " onclick="openNav()">☰</span>
       <div id="myNav" class="overlay">
@@ -353,5 +382,26 @@
   domAnimator.addFrame('Thanks for your visit');
   domAnimator.animate(1000); //ms
 </script>
+<script src="js/granim.js-1.0.6/dist/granim.min.js"></script>
+  <script type="text/javascript">
+    var granimInstance = new Granim({
+      element: '#logo-canvas',
+      direction: 'left-right',
+      opacity: [1, 1],
+      states : {
+        "default-state": {
+          gradients: [
+          ['#EB3349', '#F45C43'],
+          ['#FF8008', '#FFC837'],
+          ['#4CB8C4', '#3CD3AD'],
+          ['#24C6DC', '#514A9D'],
+          ['#FF512F', '#DD2476'],
+          ['#DA22FF', '#9733EE']
+          ],
+          transitionSpeed: 2000
+        }
+      }
+    });
+  </script>
 </body>
 </html>
