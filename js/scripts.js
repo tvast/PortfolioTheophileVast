@@ -34,8 +34,8 @@
 
 
 		clearInterval(myVar);
-		document.getElementById("foo").innerHTML= "Quadrivium"
-	}
+		/*document.getElementById("foo").innerHTML= "Quadrivium"
+*/	}
 
 
 	/* Open when someone clicks on the span element */
